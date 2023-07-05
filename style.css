@@ -1,0 +1,26 @@
+body {
+  background: #f38d8d;
+  counter-reset: mini-step;
+}
+
+ol li {
+  counter-increment: mini-step;
+  list-style: none;
+}
+ol li:before {
+  content: counter(mini-step, lower-alpha) " ";
+  background: darkred;
+  color: white;
+  padding: 2px 5px;
+  margin: 4px;
+  font: 14px/250% times new roman;
+  border-radius: 100%;
+}
+
+.container{
+  width: 20%;
+  margin: 20px;
+  background: white;
+  counter-increment: mega-step;
+  padding: 5px;
+}

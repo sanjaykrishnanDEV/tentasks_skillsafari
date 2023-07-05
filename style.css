@@ -1,0 +1,26 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 40vh;
+  width: 40vw;
+  background-color: crimson;
+  color: black;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.container{
+  animation: fade-in 5s;
+  animation-iteration-count: 1;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

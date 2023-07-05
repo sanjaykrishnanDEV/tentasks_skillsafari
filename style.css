@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 30vh;
+  width: 100%;
+  background-image: url(./images/SvWWN.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbotron {
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}

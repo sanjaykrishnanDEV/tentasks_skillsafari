@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.container form {
+  border: 1px solid black;
+  height: 40vh;
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.gender {
+  display: flex;width: 70%;font-size: 18px;margin: 10px;
+}
+input {
+  width: 60%;
+  height: 35px;
+  padding: 5px;
+  display: inline;
+}

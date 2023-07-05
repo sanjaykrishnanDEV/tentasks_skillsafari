@@ -1,18 +1,33 @@
-
-.contactform {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-  width: 40vw;
-  height: 40vh;
-  border: 1px solid black;
-  font-size: 20px;
-  margin: 0 auto;
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.contactform #form {
-  margin: 10px;
-  height: 50%;
-  width: 50%;
+header{
+    display: flex;justify-content: center;
+    
+}
+.container {
+  margin: 0 auto;
+  margin-top: 20px;
+ 
+  height: auto;
+  width: 90vw;
+
+  display: grid;justify-content: center;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, 220px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.container > .cell {
+  border: 1px solid black;
+  background-color: violet;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }

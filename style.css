@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  border-radius: 10px;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  width: 50%;
+  background-color: darkcyan;
+}
+.btn {
+  margin-left: 50px;
+  width: 50%;
+  align-self: center;
+}
+label {
+  font-size: larger;
+}
